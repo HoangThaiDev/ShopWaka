@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box !important;
+    font-family: 'EB Garamond', serif;
+}
+#bestProduct,
+#bestCoffee,
+#giftShop
+{
+    padding: 40px 0;
+    background-color: rgb(245, 245, 247);
+}
+/* <!-- Phần 1: Navbar Menu Shop --> */
+#navbar__menu {
+    padding: 0;
+    height: 80px;
+}
+
+#navbar__menu .menu-logo img {
+    padding-left: 15%;
+}
+
+#navbar__menu .container,
+#navbar__menu .menu-title,
+#navbar__menu .menu-icon {
+    height: 80px !important;
+    line-height: 80px;
+}
+
+#navbar__menu .menu-title {
+    padding-left: 5%;
+}
+
+#navbar__menu .menu-title .nav-link {
+    color: black;
+    padding: 0 20px;
+    font-weight: 600;
+    height: 30px !important;
+}
+
+#navbar__menu .menu-icon .nav {
+    padding-left: 15%;
+}
+
+#navbar__menu .menu-icon .nav-link {
+    color: black;
+    padding: 0 15px;
+}
+
+#navbar__menu .menu-icon .fa-magnifying-glass {
+    background-color: rgba(225, 225, 224, 0.5);
+    padding: 10px;
+    border-radius: 100%;
+    border: 1px solid rgba(225, 225, 224, 0.5);
+}
+#navbar__menu .nav-active{
+    color: rgb(255, 174, 57) !important;
+}
+/* <!-- Phần 2: Best Product Shop --> */
+#bestProduct .container {
+    width: 1140px;
+    padding: 0;
+}
+
+#bestProduct .container .product {
+    padding: 20px 5px;
+    font-size: 14px;
+}
+
+#bestProduct .card {
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+#bestProduct .card .card-money {
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+#bestProduct .card span {
+    color: rgb(255, 174, 57);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+#giftShop  .card-link,
+#bestCoffee  .card-link,
+#bestProduct  .card-link {
+    text-decoration: none;
+    color: black;
+}
+/* <!-- Phần 3: Best Coffee Shop --> */
+#bestCoffee{
+    padding: 0 ;
+}
+#bestCoffee .container {
+    width: 1140px;
+    padding: 0;
+}
+
+#bestCoffee .container .coffee {
+    padding: 20px 5px;
+    font-size: 14px;
+}
+
+#bestCoffee .card {
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+#bestCoffee .card .card-money {
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+#bestCoffee .card span {
+    color: rgb(255, 174, 57);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+/* <!-- Phần 4: Gift Shop --> */
+#giftShop{
+    padding: 30px 0 ;
+}
+#giftShop .container {
+    width: 1140px;
+    padding: 0;
+}
+
+#giftShop .container .gift {
+    padding: 20px 5px;
+    font-size: 14px;
+}
+
+#giftShop .card {
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+#giftShop .card .card-money {
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+#giftShop .card span {
+    color: rgb(255, 174, 57);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+/* <!-- Phần 5: Footer Shop --> */
+#footer{
+    background-color: rgba(0, 0, 0, 0.838);
+}
+
+#footer .contact-footer .row{
+    padding-top: 50px;
+    justify-content: flex-end;
+    color: white;
+}
+
+#footer .contact-footer .col-3{
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    
+}
+#footer .contact-logo img{
+    margin-bottom: 20px;
+}
+#footer .contact-logo p{
+    margin: 0;
+    font-size: 14px;
+}
+.contact-aboutUS .list-group-item,
+.contact-detail .list-group-item,
+.info-footer .list-group-item{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border: none;
+    font-size: 12px;
+}
+.contact-aboutUS .list-active,
+.contact-detail .list-active{
+    font-weight: 700;
+    font-size: 16px;
+}
+.contact-aboutUS .list-group{
+    padding-left: 30px;
+} 
+.address-footer{
+    padding: 0 !important;
+}
+#footer .info-footer{
+    padding: 30px !important;
+}
+#footer .info-footer .col-6{
+    margin-right: 30px !important;
+    padding: 0;
+}
+#footer .info-footer .list-group-item{
+    padding: 2px 0;
+}
+#footer .info-footer .col-3{
+    border: 0;
+}
+#footer .info-footer .col-3 img{
+    margin:30px 0 0 50px;
+}
+#footer .address-footer{
+    background: url(../IMG/img-footer.png) no-repeat center;
+    background-size: auto;
+}
+#footer .address-footer img{
+    display: block;
+    margin-top: 50px;
+}
+#footer .address-footer i{
+    color: white;
+    margin: 20px 5px;
+    font-size: 20px;
+}
+/* --effect CSS -- */
+#navbar__menu .menu-title .nav-item :hover{
+    color: rgb(255, 174, 57);
+}
+#navbar__menu .menu-icon .fa-magnifying-glass:hover{
+    border: 1px solid rgb(255, 174, 57);
+    color: rgb(255, 174, 57);
+    background-color: white;
+    transition: 0.3s all ease;
+}
+#navbar__menu .menu-icon .fa-user:hover,
+#navbar__menu .menu-icon .fa-bag-shopping:hover{
+    color: rgb(255, 174, 57);
+    transition: 0.1s all ease;
+}

@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box !important;
+    font-family: 'EB Garamond', serif;
+}
+
+/* <!-- Phần 1: Navbar Information Shop --> */
+#navbar-info {
+    background-color: rgb(255, 174, 57);
+    height: 40px;
+    padding: 0;
+}
+
+#navbar-info .container {
+    width: 1140px;
+    justify-content: space-evenly;
+}
+
+#navbar-info .container .navbar-brand {
+    color: white;
+    font-size: 16px;
+}
+
+#navbar-info .container .navbar-brand i {
+    margin-right: 10px;
+}
+
+/* <!-- Phần 2: Navbar Menu Shop --> */
+#navbar__menu {
+    padding: 0;
+    height: 80px;
+}
+
+#navbar__menu .menu-logo img {
+    padding-left: 15%;
+}
+
+#navbar__menu .container,
+#navbar__menu .menu-title,
+#navbar__menu .menu-icon {
+    height: 80px !important;
+    line-height: 80px;
+}
+
+#navbar__menu .menu-title {
+    padding-left: 5%;
+}
+
+#navbar__menu .menu-title .nav-link {
+    color: black;
+    padding: 0 20px;
+    font-weight: 600;
+    height: 100% !important;
+}
+
+#navbar__menu .menu-icon .nav {
+    padding-left: 15%;
+}
+
+#navbar__menu .menu-icon .nav-link {
+    color: black;
+    padding: 0 15px;
+}
+
+#navbar__menu .menu-icon .fa-magnifying-glass {
+    background-color: rgba(225, 225, 224, 0.5);
+    padding: 10px;
+    border-radius: 100%;
+    border: 1px solid rgba(225, 225, 224, 0.5);
+}
+
+#navbar__menu .nav-active {
+    color: rgb(255, 174, 57) !important;
+}
+
+/* <!-- Phần 3: Detail Title Sho --> */
+#detail__title,
+#bannerVoucher,
+#newsTitle,
+#newsTitle__pass,
+#newsTitle__present, 
+#newsTitle__future {
+    background: rgb(245, 245, 247);
+}
+
+#detail__title .container {
+    width: 1140px;
+    padding: 50px 0 0 0;
+}
+
+#detail__title .detail-new .new-img {
+    width: 100%;
+}
+
+#detail__title .detail-new .card {
+    height: 100%;
+    border-radius: 0;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+#detail__title .detail-new .col-8 {
+    padding-right: 0;
+}
+
+#detail__title .detail-new .col-4 {
+    padding-left: 0;
+}
+
+#detail__title .imgs-new img {
+    width: 100%;
+    height: 190px;
+}
+
+#detail__title .imgs-new img:nth-child(1) {
+    margin-bottom: 22px;
+}
+
+
+/* <!-- Phần 4: News Title Shop --> */
+
+#newsTitle .container,
+#newsTitle__pass .container,
+#newsTitle__present .container, 
+#newsTitle__future .container {
+    width: 1140px;
+    padding: 20px 0;
+}
+
+#newsTitle .container .row {
+    justify-content: space-between !important;
+}
+
+#newsTitle .new .card {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#newsTitle .new .card p {
+    font-size: 14px;
+}
+
+#newsTitle .container .row .col-6:nth-child(2) {
+    text-align: right;
+    font-weight: 600;
+}
+
+/* <!-- Phần 5: Banner Voucher Shop --> */
+#bannerVoucher .container {
+    width: 1140px;
+    padding: 0;
+}
+
+#bannerVoucher img {
+    width: 100%;
+    height: 350px;
+}
+
+/* <!-- Phần 11: Footer Shop --> */
+#footer {
+    background-color: rgba(0, 0, 0, 0.838);
+}
+
+#footer .contact-footer .row {
+    padding-top: 50px;
+    justify-content: flex-end;
+    color: white;
+}
+
+#footer .contact-footer .col-3 {
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+
+}
+
+#footer .contact-logo img {
+    margin-bottom: 20px;
+}
+
+#footer .contact-logo p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.contact-aboutUS .list-group-item,
+.contact-detail .list-group-item,
+.info-footer .list-group-item {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border: none;
+    font-size: 12px;
+}
+
+.contact-aboutUS .list-active,
+.contact-detail .list-active {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.contact-aboutUS .list-group {
+    padding-left: 30px;
+}
+
+.address-footer {
+    padding: 0 !important;
+}
+
+#footer .info-footer {
+    padding: 30px !important;
+}
+
+#footer .info-footer .col-6 {
+    margin-right: 30px !important;
+    padding: 0;
+}
+
+#footer .info-footer .list-group-item {
+    padding: 2px 0;
+}
+
+#footer .info-footer .col-3 {
+    border: 0;
+}
+
+#footer .info-footer .col-3 img {
+    margin: 30px 0 0 50px;
+}
+
+#footer .address-footer {
+    background: url(../IMG/img-footer.png) no-repeat center;
+    background-size: auto;
+}
+
+#footer .address-footer img {
+    display: block;
+    margin-top: 50px;
+}
+
+#footer .address-footer i {
+    color: white;
+    margin: 20px 5px;
+    font-size: 20px;
+}
+
+/* --effect CSS -- */
+#navbar__menu .menu-title .nav-item :hover {
+    color: rgb(255, 174, 57);
+}
+
+#navbar__menu .menu-icon .fa-magnifying-glass:hover {
+    border: 1px solid rgb(255, 174, 57);
+    color: rgb(255, 174, 57);
+    background-color: white;
+    transition: 0.3s all ease;
+}
+
+#navbar__menu .menu-icon .fa-user:hover,
+#navbar__menu .menu-icon .fa-bag-shopping:hover {
+    color: rgb(255, 174, 57);
+    transition: 0.1s all ease;
+}
